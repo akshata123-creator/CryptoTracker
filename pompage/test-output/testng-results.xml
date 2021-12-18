@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24341" started-at="2021-12-18T11:01:14Z" finished-at="2021-12-18T11:01:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24341" started-at="2021-12-18T11:01:14Z" finished-at="2021-12-18T11:01:38Z">
+      <class name="com.TestCases.GraphPageTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.TestCases.GraphPageTest@51cd7ffc]" name="beforeMethod" is-config="true" duration-ms="306" started-at="2021-12-18T16:31:14Z" finished-at="2021-12-18T16:31:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="AssertText()[pri:1, instance:com.TestCases.GraphPageTest@51cd7ffc]" name="AssertText" duration-ms="13062" started-at="2021-12-18T16:31:14Z" finished-at="2021-12-18T16:31:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssertText -->
+        <test-method status="PASS" signature="clickButton()[pri:2, instance:com.TestCases.GraphPageTest@51cd7ffc]" name="clickButton" duration-ms="8931" started-at="2021-12-18T16:31:27Z" finished-at="2021-12-18T16:31:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickButton -->
+        <test-method status="PASS" signature="TrarDown()[pri:0, instance:com.TestCases.GraphPageTest@51cd7ffc]" name="TrarDown" is-config="true" duration-ms="2021" started-at="2021-12-18T16:31:36Z" finished-at="2021-12-18T16:31:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TrarDown -->
+      </class> <!-- com.TestCases.GraphPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

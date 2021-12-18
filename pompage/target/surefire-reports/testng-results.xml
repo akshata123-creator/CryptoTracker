@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="21" passed="20">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="118631" started-at="2021-12-18T10:05:31Z" finished-at="2021-12-18T10:07:30Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="118631" started-at="2021-12-18T10:05:31Z" finished-at="2021-12-18T10:07:30Z">
+      <class name="com.TestCases.RegisterPageTest">
+        <test-method status="PASS" signature="EditableLogin()[pri:1, instance:com.TestCases.RegisterPageTest@e6516e]" name="EditableLogin" duration-ms="2227" started-at="2021-12-18T15:35:58Z" finished-at="2021-12-18T15:36:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditableLogin -->
+        <test-method status="PASS" signature="RegisterElementPresent()[pri:2, instance:com.TestCases.RegisterPageTest@e6516e]" name="RegisterElementPresent" duration-ms="2164" started-at="2021-12-18T15:36:26Z" finished-at="2021-12-18T15:36:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterElementPresent -->
+        <test-method status="PASS" signature="Editable()[pri:3, instance:com.TestCases.RegisterPageTest@e6516e]" name="Editable" duration-ms="3042" started-at="2021-12-18T15:36:40Z" finished-at="2021-12-18T15:36:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Editable -->
+        <test-method status="PASS" signature="registerTest()[pri:4, instance:com.TestCases.RegisterPageTest@e6516e]" name="registerTest" duration-ms="5781" started-at="2021-12-18T15:36:52Z" finished-at="2021-12-18T15:36:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method status="FAIL" signature="sameUsername()[pri:5, instance:com.TestCases.RegisterPageTest@e6516e]" name="sameUsername" duration-ms="3885" started-at="2021-12-18T15:37:16Z" finished-at="2021-12-18T15:37:20Z">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : username already exists,please try another}
+  (Session info: chrome=96.0.4664.110): username already exists,please try another
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'HJNZL002173', ip: '192.168.31.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_92'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5883c7ee5aff6353e2180693b477c9c0, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\AKSHAT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62016}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62016/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5883c7ee5aff6353e2180693b477c9c0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : username already exists,please try another}
+  (Session info: chrome=96.0.4664.110): username already exists,please try another
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'HJNZL002173', ip: '192.168.31.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_92'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5883c7ee5aff6353e2180693b477c9c0, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\AKSHAT~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62016}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62016/devtoo..., se:cdpVersion: 96.0.4664.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5883c7ee5aff6353e2180693b477c9c0
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:349)
+	at com.baseClass.Helper.captureScreenshot(Helper.java:14)
+	at com.TestCases.RegisterPageTest.sameUsername(RegisterPageTest.java:240)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sameUsername -->
+      </class> <!-- com.TestCases.RegisterPageTest -->
+      <class name="com.TestCases.HomePageTest">
+        <test-method status="PASS" signature="MousHover()[pri:1, instance:com.TestCases.HomePageTest@61d9efe0]" name="MousHover" duration-ms="4366" started-at="2021-12-18T15:35:52Z" finished-at="2021-12-18T15:35:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MousHover -->
+        <test-method status="PASS" signature="AssertText()[pri:2, instance:com.TestCases.HomePageTest@61d9efe0]" name="AssertText" duration-ms="1777" started-at="2021-12-18T15:36:22Z" finished-at="2021-12-18T15:36:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssertText -->
+      </class> <!-- com.TestCases.HomePageTest -->
+      <class name="com.TestCases.LoginPageTest">
+        <test-method status="PASS" signature="Editable()[pri:1, instance:com.TestCases.LoginPageTest@7e70bd39]" name="Editable" duration-ms="2003" started-at="2021-12-18T15:35:56Z" finished-at="2021-12-18T15:35:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Editable -->
+        <test-method status="PASS" signature="MouseHover()[pri:2, instance:com.TestCases.LoginPageTest@7e70bd39]" name="MouseHover" duration-ms="1911" started-at="2021-12-18T15:36:24Z" finished-at="2021-12-18T15:36:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MouseHover -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.TestCases.LoginPageTest@7e70bd39]" name="loginTest" duration-ms="2501" started-at="2021-12-18T15:36:38Z" finished-at="2021-12-18T15:36:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="CheckPassword()[pri:4, instance:com.TestCases.LoginPageTest@7e70bd39]" name="CheckPassword" duration-ms="2492" started-at="2021-12-18T15:36:49Z" finished-at="2021-12-18T15:36:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckPassword -->
+        <test-method status="PASS" signature="OpenHomePage()[pri:5, instance:com.TestCases.LoginPageTest@7e70bd39]" name="OpenHomePage" duration-ms="3278" started-at="2021-12-18T15:37:13Z" finished-at="2021-12-18T15:37:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenHomePage -->
+      </class> <!-- com.TestCases.LoginPageTest -->
+      <class name="com.TestCases.GraphPageTest">
+        <test-method status="PASS" signature="AssertText()[pri:1, instance:com.TestCases.GraphPageTest@2f4854d6]" name="AssertText" duration-ms="11872" started-at="2021-12-18T15:35:40Z" finished-at="2021-12-18T15:35:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssertText -->
+        <test-method status="PASS" signature="clickButton()[pri:2, instance:com.TestCases.GraphPageTest@2f4854d6]" name="clickButton" duration-ms="9215" started-at="2021-12-18T15:36:13Z" finished-at="2021-12-18T15:36:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickButton -->
+      </class> <!-- com.TestCases.GraphPageTest -->
+      <class name="com.TestCases.SearchPageTest">
+        <test-method status="PASS" signature="AssertText()[pri:1, instance:com.TestCases.SearchPageTest@6de54b40]" name="AssertText" duration-ms="8285" started-at="2021-12-18T15:36:00Z" finished-at="2021-12-18T15:36:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssertText -->
+        <test-method status="PASS" signature="Editable()[pri:2, instance:com.TestCases.SearchPageTest@6de54b40]" name="Editable" duration-ms="6900" started-at="2021-12-18T15:36:28Z" finished-at="2021-12-18T15:36:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Editable -->
+        <test-method status="PASS" signature="MouseHover()[pri:3, instance:com.TestCases.SearchPageTest@6de54b40]" name="MouseHover" duration-ms="6373" started-at="2021-12-18T15:36:43Z" finished-at="2021-12-18T15:36:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MouseHover -->
+        <test-method status="PASS" signature="SearchTest()[pri:4, instance:com.TestCases.SearchPageTest@6de54b40]" name="SearchTest" duration-ms="15152" started-at="2021-12-18T15:36:58Z" finished-at="2021-12-18T15:37:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchTest -->
+      </class> <!-- com.TestCases.SearchPageTest -->
+      <class name="com.TestCases.DeveloperPageTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.TestCases.DeveloperPageTest@7eb01b12]" name="beforeMethod" is-config="true" duration-ms="782" started-at="2021-12-18T15:35:31Z" finished-at="2021-12-18T15:35:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.TestCases.GraphPageTest@2f4854d6]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-12-18T15:35:32Z" finished-at="2021-12-18T15:35:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.TestCases.HomePageTest@61d9efe0]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-12-18T15:35:32Z" finished-at="2021-12-18T15:35:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.TestCases.SearchPageTest@6de54b40]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-12-18T15:35:32Z" finished-at="2021-12-18T15:35:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.TestCases.LoginPageTest@7e70bd39]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-12-18T15:35:32Z" finished-at="2021-12-18T15:35:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.TestCases.RegisterPageTest@e6516e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-12-18T15:35:32Z" finished-at="2021-12-18T15:35:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="developerTest()[pri:1, instance:com.TestCases.DeveloperPageTest@7eb01b12]" name="developerTest" duration-ms="7803" started-at="2021-12-18T15:35:32Z" finished-at="2021-12-18T15:35:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- developerTest -->
+        <test-method status="PASS" signature="MousHover()[pri:2, instance:com.TestCases.DeveloperPageTest@7eb01b12]" name="MousHover" duration-ms="3817" started-at="2021-12-18T15:36:09Z" finished-at="2021-12-18T15:36:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MousHover -->
+        <test-method status="PASS" signature="AssertText()[pri:3, instance:com.TestCases.DeveloperPageTest@7eb01b12]" name="AssertText" duration-ms="2946" started-at="2021-12-18T15:36:35Z" finished-at="2021-12-18T15:36:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssertText -->
+        <test-method status="PASS" signature="TrarDown()[pri:0, instance:com.TestCases.DeveloperPageTest@7eb01b12]" name="TrarDown" is-config="true" duration-ms="2342" started-at="2021-12-18T15:37:20Z" finished-at="2021-12-18T15:37:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TrarDown -->
+        <test-method status="PASS" signature="TrarDown()[pri:0, instance:com.TestCases.GraphPageTest@2f4854d6]" name="TrarDown" is-config="true" duration-ms="1386" started-at="2021-12-18T15:37:22Z" finished-at="2021-12-18T15:37:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TrarDown -->
+        <test-method status="PASS" signature="TrarDown()[pri:0, instance:com.TestCases.HomePageTest@61d9efe0]" name="TrarDown" is-config="true" duration-ms="1761" started-at="2021-12-18T15:37:24Z" finished-at="2021-12-18T15:37:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TrarDown -->
+        <test-method status="PASS" signature="TrarDown()[pri:0, instance:com.TestCases.LoginPageTest@7e70bd39]" name="TrarDown" is-config="true" duration-ms="1653" started-at="2021-12-18T15:37:26Z" finished-at="2021-12-18T15:37:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TrarDown -->
+        <test-method status="PASS" signature="TrarDown()[pri:0, instance:com.TestCases.RegisterPageTest@e6516e]" name="TrarDown" is-config="true" duration-ms="1507" started-at="2021-12-18T15:37:27Z" finished-at="2021-12-18T15:37:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TrarDown -->
+        <test-method status="PASS" signature="TrarDown()[pri:0, instance:com.TestCases.SearchPageTest@6de54b40]" name="TrarDown" is-config="true" duration-ms="1350" started-at="2021-12-18T15:37:29Z" finished-at="2021-12-18T15:37:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TrarDown -->
+      </class> <!-- com.TestCases.DeveloperPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
